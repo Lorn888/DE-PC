@@ -81,12 +81,26 @@ print(equal_or_no)
 
 # 3)
 
-int_num = int(input("number"))
+# int_num = int(input("number"))
 
-if int_num % 3 == 0 and int_num % 5 == 0:
-    print ("FizzBuzz")
-elif int_num % 3 == 0:
-    print ("fizz")
-elif int_num % 5 == 0:
-    print ("buzz")
+# if int_num % 3 == 0 and int_num % 5 == 0:
+#     print ("FizzBuzz")
+# elif int_num % 3 == 0:
+#     print ("fizz")
+# elif int_num % 5 == 0:
+#     print ("buzz")
+
+# Temperature Conversion
+
+# 1)
+
+scale = input("Would you like celcius(c)  or fahrenheit(f)?") 
+number = int(input("please type the temperature"))
+if scale == "c":
+    print(f'{number}c is {(number-32)*5/9}f')
+elif scale == "f":
+    print(f'{number}f is {(number * 1.8) + 32}c')
+else:
+    print("You typed in wrong")
+
 
