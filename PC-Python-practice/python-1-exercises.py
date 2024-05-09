@@ -36,3 +36,28 @@ print(f"The product of {num2} and {num1} is {result}")
 
 # Lists
 
+people = ["John", "Sally", "Mark", "Lisa", "Joe", "Barry", "Jane"]
+
+# 1)
+
+third = people[2]
+
+print(third)
+
+# 2)
+
+back_third = people[-3]
+
+print(back_third)
+
+# 3)
+
+people = people[2:6]
+
+print(people)
+
+# 4)
+
+equal_or_no = people[0] == people[-1]
+
+print(equal_or_no)
