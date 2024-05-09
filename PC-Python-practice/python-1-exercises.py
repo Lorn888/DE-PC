@@ -19,3 +19,20 @@ print(full_name)
 # 3)
 
 print(f"Hi, my name is {name}{last_name}")
+
+# Integers
+
+# 1)
+
+num1 = 3
+num2 = 66
+result = num1* num2
+
+print(result)
+
+# 2)
+
+print(f"The product of {num2} and {num1} is {result}")
+
+# Lists
+
