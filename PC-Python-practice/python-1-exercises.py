@@ -94,13 +94,21 @@ print(equal_or_no)
 
 # 1)
 
-scale = input("Would you like celcius(c)  or fahrenheit(f)?") 
-number = int(input("please type the temperature"))
-if scale == "c":
-    print(f'{number}c is {(number-32)*5/9}f')
-elif scale == "f":
-    print(f'{number}f is {(number * 1.8) + 32}c')
-else:
-    print("You typed in wrong")
+# scale = input("Would you like celcius(c)  or fahrenheit(f)?") 
+# number = int(input("please type the temperature"))
+# if scale == "c":
+#     print(f'{number}c is {(number-32)*5/9}f')
+# elif scale == "f":
+#     print(f'{number}f is {(number * 1.8) + 32}c')
+# else:
+#     print("You typed in wrong")
 
 
+a = False
+b = False
+x = not(a)
+y = not(b)
+print(a or b)
+print(x or y)
+print(a or x)
+print(x or b)
